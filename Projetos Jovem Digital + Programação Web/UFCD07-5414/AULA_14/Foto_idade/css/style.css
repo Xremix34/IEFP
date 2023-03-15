@@ -1,0 +1,28 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightskyblue;
+}
+
+section {
+  width: 400px;
+  margin: auto;
+  background-color: rgb(227, 227, 227);
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  background-color: darkblue;
+  color: #fff;
+}
+
+input#txtano {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  height: 16px;
+  margin-left: 10px;
+}

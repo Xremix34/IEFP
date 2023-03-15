@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+  <script src="../js/bootstrap.min.js"></script>
+
+  <!-- <link rel="stylesheet" type="text/css" href="css/style.css">-->
+  <title>Formulário com jQuery</title>
+</head>
+
+<body>
+  <section class="vh-100" style='background-color: #f0ffff;'>
+
+    <h1 class="titulo">Formulário de Autenticação</h1>
+    <br><br>
+    <div class="wapper">
+      <form class="form-signin" id="autenticar">
+        <h2 class="form-signin-heading">Login</h2>
+        <label class="campos">Utilizador</label>
+        <input type="text" class="form-control" name="utilizador" placeholder="Utilizador" required>
+        <br>
+        <label class="campos">Password</label>
+        <input type="password" class="form-control" name="password">
+
+        <div class="centrar-butao-login">
+          <p><input type="submit" class="btn btn-lg btn-secondary btn-block btn-center" id=botao_autenticar name="Autenticar" value="Iniciar sessão"></p>
+        </div>
+      </form>
+
+      <p id="resultado_de_autenticacao"></p>
+
+  </section>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/custom_autenticar.js"></script>
+</body>
+
+</html>

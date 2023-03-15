@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background-color: aqua;
+}
+
+/*Em é o tamanho em relação ao browser ou seja é o valor proporcional ao website ele multiplica o tamanho que for dado ex 12*12*/
+#tudo, #topo, #menu, #conteudo, #rodape {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
+
+#tudo {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#topo {
+  width: 900px;
+  height: 200px;
+  background-color: #362f2d;
+}
+
+#topo img {
+  width: 400px;
+  padding-top: 50px;
+}
+
+#menu {
+  width: 240px;
+  height: 520px;
+  background-color: #94b73e;
+  float: left;
+  padding-top: 30px;
+
+}
+
+div#menu div {
+  background-color: coral;
+  border-radius: 10px 5px 10px 0px;
+  padding: 10px 10px 10px 10px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#menu a {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: #362f2d;
+  padding: 5px;
+}
+
+div#menu a:hover div {
+  background-color: rgb(90, 86, 84);
+  color: #fff;
+}
+
+
+#conteudo {
+  width: 640px;
+  height: 530px;
+  background-color: #b5c0af;
+  float: right;
+  padding: 10px;
+}
+
+div#conteudo h1 {
+  font-size: 2em;
+}
+
+div#conteudo p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+div#conteudo img {
+  width: 300px;
+}
+
+#rodape {
+  width: 900px;
+  height: 100px;
+  background-color: #4c4c4c;
+  /*limpa os floats ou seja a pagina deixa de ser flutuante*/
+  clear: both;
+}
+
+#rodape p {
+  padding-top: 40px;
+  font-size: 12px;
+}

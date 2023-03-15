@@ -1,0 +1,32 @@
+/*Fazer Comentários */
+body {
+  background-color: rgb(219, 248, 236);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color: darkcyan;
+}
+
+h2 {
+  color: rgb(2, 158, 158);
+}
+
+img {
+  border: 5px solid #fff;
+  border-radius: 5px;
+  width: 400px;
+  box-shadow: 2px 2px 10px 1px;
+}
+
+div {
+  background-color: #fff;
+  width: 200px;
+  margin-top: 2px;
+  position: relative;
+  text-align: center;
+}
+
+div h1 {
+  font-size: 50px;
+}

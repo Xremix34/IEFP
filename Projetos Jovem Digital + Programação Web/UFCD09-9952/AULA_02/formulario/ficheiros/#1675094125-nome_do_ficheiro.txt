@@ -1,0 +1,1 @@
+Texto escrito manual ou de uma string como campo 01 que é Este é o campo 1 que vai ser guardado no ficheiro

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificar Idade</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+  <h1>Verificar Idade</h1>
+  <section>
+    <div>
+      <p>Ano de Nascimento: <input type="number" name="txtano" id="txtano" min="0"></p>
+      <p>Género:
+        <input type="radio" name="radgen" id="mas" checked>
+        <label for="mas">Masculino</label>
+        <input type="radio" name="radgen" id="fem">
+        <label for="fem">Feminino</label>
+      </p>
+      <p>
+        <input type="button" value="consultar" onclick="verificar()">
+      </p>
+    </div>
+
+    <div id="res">
+      <p>Preencha os dados para ver o resultado!!!</p>
+    </div>
+  </section>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+/*Fazer Comentários */
+body {
+  background-color: rgb(219, 248, 236);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color: darkcyan;
+}
+
+h2 {
+  color: rgb(2, 158, 158);
+}
+
+img {
+  border: 5px solid #fff;
+  border-radius: 5px;
+  width: 400px;
+  box-shadow: 2px 2px 10px 1px;
+}
+
+div {
+  width: 200px;
+  margin-top: 2px;
+}
+
+div h1 {
+  font-size: 50px;
+}
+
+/*Classes começam sempre por ponto (.) 
+O padding é o interior começa sempre em cima, esquerda, baixo, direita
+O border pode ser alinhado para dentro ou para fora
+O margin é o exterior*/
+div.botaomenu div {
+  background-color: coral;
+  border-radius: 10px 5px 10px 0px;
+  padding: 10px 10px 10px 10px;
+  width: 100px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+/*Pseudo Classe a ser aplicada a div filha*/
+a:hover div {
+  background-color: darkcyan;
+  margin-left: 10px;
+}
+
+/*ID começa sempre com cardinal (#) */
+#imghome {
+  width: 600px;
+  border: 10px coral solid;
+}

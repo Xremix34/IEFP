@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarefa 9</title>
+
+  <style>
+    div {
+      width: 100%;
+      border: 1px solid #000;
+      margin-top: 100px;
+
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    button {
+      width: 200px;
+      background-color: rgb(25, 116, 158);
+      color: #fff;
+      border: none;
+      padding: 20px;
+      margin-left: 20px;
+      margin-right: 10px;
+      font-weight: bold;
+      font-size: 1em;
+      border-radius: 5px;
+      margin-bottom: 50px;
+
+    }
+
+    button:hover {
+      transition: all 2s;
+      background-color: rgb(66, 150, 189);
+      color: rgb(199, 195, 195);
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1>Exercício de Mensagens</h1>
+    <button onclick="mensagem1()">Abrir Mensagem 1</button>
+    <button onclick="mensagem2()">Abrir Mensagem 2</button>
+    <button onclick="mensagem3()">Abrir Mensagem 3</button>
+    <button onclick="abrirPagina()">Abrir Página</button>
+  </div>
+  <script>
+    document.title = "Mensagens em Javascript";
+    //Funções criadas para abrir uma janela de alerta
+    function mensagem1() {
+      alert("Clicou no 1º botão da página")
+    }
+    function mensagem2() {
+      alert("Clicou no 2º botão da página");
+    }
+    function mensagem3() {
+      alert("Clicou no 3º botão da página");
+    }
+
+    function abrirPagina() {
+      window.open("https://www.w3schools.com/")
+    }
+  </script>
+</body>
+
+</html>

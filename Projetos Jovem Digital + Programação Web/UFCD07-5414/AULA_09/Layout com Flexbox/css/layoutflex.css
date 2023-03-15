@@ -1,0 +1,75 @@
+/*Estilos aplicados a mobile*/
+
+body {
+  padding: 2em;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Afeta todos os elementos diretos do contentor wrapper*/
+.wrapper>* {
+  padding: 10px;
+  /*Todos os elementos em cada linha vão ocupar 100%*/
+  flex: 1 100%;
+}
+
+.header {
+  background: #ff4500;
+}
+
+.footer {
+  background: #75b319;
+}
+
+/*Os textos devem ser formatados sempre À esquerda */
+.main {
+  text-align: left;
+  background: deepskyblue;
+}
+
+.aside1 {
+  background: gold;
+}
+
+.aside2 {
+  background: pink;
+}
+
+/*-----Fim Mobile-----*/
+
+/*Tablet*/
+@media all and (min-width: 600px) {
+  .aside {
+    /*o conteudo aside é divido em duas colunas*/
+    flex: 1 0 0;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .main {
+    /*No flex o conteúdo passa a ser colunas com 10 pixels de espaçamento*/
+    flex: 3 10px;
+  }
+
+  .aside1 {
+    order: 1;
+  }
+
+  .main {
+    order: 2;
+  }
+
+  .aside2 {
+    order: 3;
+  }
+
+  .footer {
+    order: 4;
+  }
+
+}

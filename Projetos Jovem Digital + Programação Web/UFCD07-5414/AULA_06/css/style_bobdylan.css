@@ -1,0 +1,65 @@
+body {
+  background-image: url(../images/fundo_dylan.png);
+  background-repeat: no-repeat;
+  background-color: #c7c7c7;
+  /*fixa a imagem*/
+  background-attachment: fixed;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p, h1 {
+  margin-left: 500px;
+}
+
+p {
+  line-height: 30px;
+}
+
+/*Formatar menu*/
+.menu {
+  margin: 0px 0px 60px 500px;
+  height: 30px;
+}
+
+.button {
+  float: left;
+  width: 150px;
+  background-color: #fffafa36;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 5px;
+  color: black;
+
+}
+
+a:hover .button {
+  background-color: #6b99b880;
+  color: #fff;
+}
+
+#picture img {
+  width: 300px;
+  margin: 0px 20px 10px 0px;
+}
+
+#picture {
+  margin-left: 500px;
+  float: left;
+}
+
+.social {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.social img {
+  width: 40px;
+  margin: 5px
+}
+
+.floatstop {
+  clear: both;
+}

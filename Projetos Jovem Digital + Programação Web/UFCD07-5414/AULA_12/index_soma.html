@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calcular Valores</title>
+</head>
+
+<body>
+  <h1>Calcular Valores</h1>
+  <button onclick="somar()">Clique para somar</button>
+  <section id="res">
+    <p>Aqui vai surgir o resultado do cálculo.</p>
+  </section>
+</body>
+<script>
+  function somar() {
+    let n1 = Number(window.prompt('Insira uma idade:'));
+    let n2 = Number(window.prompt('Insira outra idade:'));
+    soma = n1 + n2;
+    let res = document.querySelector('section#res');
+    res.innerHTML = `<p>A soma entre ${n1} e ${n2} é igual a <strong>${soma}</strong>.</p>`;
+
+
+    //Converter o valor do input para formato numerico
+    //document.write(Number(n1) + Number(n2));
+  }
+</script>
+
+</html>

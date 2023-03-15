@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variável com Formatação Decimal em JS</title>
+  <script type="text/javascript">
+    var nome = window.prompt("Insira o seu primeiro nome.");
+    var idade = window.prompt("Insira a sua idade.");
+    var altura = 1.74;
+    var banco = 1000;
+  </script>
+  <style>
+    span {
+      color: red;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    document.writeln(`O meu nome é <strong>${nome.toLocaleUpperCase()}</strong> e tenho <span>${idade} anos</span>, <br>tenho ${altura.toFixed(2).replace(".", ",")} de altura, 
+    e ${banco.toLocaleString("pt-PT", { style: "currency", currency: "EUR" })} no banco.`);
+  </script>
+</body>
+
+</html>

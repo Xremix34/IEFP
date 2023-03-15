@@ -1,0 +1,1 @@
+INSERT INTO `registo` (`utilizador`, `email`, `password`, `genero`) VALUES ('figo', 'figo@gmail.com', 'asdsd', 'masculino');

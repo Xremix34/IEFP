@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Contacto</title>
+</head>
+
+<body>
+  <h1>Formulário de Contacto</h1>
+
+  <form>
+    <table>
+      <tr>
+        <td> Nome:</td>
+        <td><input type="text" name="nome" required></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input type="email" name="email"></td>
+      </tr>
+      <tr>
+        <td>Género:</td>
+        <td>Feminino:<input type="radio" name="genero" checked>Masculino:<input type="radio" name="genero"></td>
+      </tr>
+      <tr>
+        <td>Hobbies:</td>
+        <td><input type="checkbox" name="hobbies" value="ler">Ler
+          <input type="checkbox" name="hobbies" value="cinema">Cinema
+          <input type="checkbox" name="hobbies" value="desporto">Desporto
+        </td>
+      </tr>
+      <tr>
+        <td>Cidade</td>
+        <td>
+          <select name="cidades">
+            <option value="aveiro">Aveiro</option>
+            <option value="coimbra">Coimbra</option>
+            <option value="lisboa">Lisboa</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Mensagem:</td>
+        <td><textarea name="mensagem" rows="5" cols="21" placeholder="Insira a sua mensagem"></textarea></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="submit" name="submeter" value="Enviar">
+          <input type="reset" name="submeter" value="Limpar">
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>

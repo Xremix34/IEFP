@@ -1,0 +1,324 @@
+/*Border box vai influenciar todos os contentores aplicando sempre o mesmo width*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7bb4d15e;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*permite injetar conteúdo no final do conteúdo da Div*/
+.row::after {
+  /*Acrescenta conteúdo pelo css*/
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*formata todos os elementos começados pela classe col-*/
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+div h1 {
+  font-size: 2.5em;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px black;
+}
+
+.header {
+  background-image: url(../images/lisboa_banner.jpg);
+  background-size: cover;
+  color: #fff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0px;
+  margin-top: 100px;
+  padding: 0px;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 20px;
+  background-color: #6ca5ca;
+  color: #fff;
+  /*A sombra é aplicada interna e externa*/
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+}
+
+.menu li:hover {
+  background-color: #76b4dc;
+}
+
+.menu a {
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 2px 2px #0099cc;
+  font-size: 16px;
+}
+
+.aside {
+  background-color: #6ca5ca;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+#txt-lisboa {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: justify;
+
+}
+
+#img-lisboa {
+  width: 100%;
+}
+
+.footer-mobile {
+  background-color: #76b4dc;
+  /*width: 500px;*/
+  transition: background-color .35s ease-in-out;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.footer-tablet {
+  display: none;
+  background-color: #5b99c7;
+  /*width: 500px;*/
+  transition: background-color .35s ease-in-out;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.footer-desktop {
+  /*fica invisivel*/
+  display: none;
+  background-color: #448cbc;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.col-3.galeria {
+  float: left;
+}
+
+.col-3 h2 {
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px black;
+  text-align: center;
+
+}
+
+#titulo-galeria h2 {
+  padding-left: 20px;
+}
+
+.col-3 img {
+  width: 180px;
+  height: 150px;
+  float: left;
+  padding: 10px;
+}
+
+/*Dimensões de várias resoluções para sites*/
+/* Mobile*/
+[class*="col-"] {
+  width: 100%;
+}
+
+/* Tablet*/
+@media only screen and (min-width:600px) {
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 8.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
+  .footer-mobile {
+    /*fica visivel*/
+    display: none;
+  }
+
+  .footer-desktop {
+    /*fica visivel*/
+    display: none;
+  }
+
+  .footer-tablet {
+    /*fica visivel*/
+    display: block;
+  }
+
+  .col-3 {
+    width: 100%;
+  }
+
+  .col-3.text {
+    width: 100%;
+  }
+
+  .col-3:last-child {
+    width: 100%;
+  }
+
+
+  .col-3:first-child {
+
+    width: 30%;
+  }
+
+
+  .col-6 {
+    width: 68%;
+  }
+
+  .aside:first-child {
+    width: 30%;
+  }
+
+  .aside:last-child {
+    width: 100%;
+  }
+
+}
+
+/* Desktop*/
+@media only screen and (min-width:992px) {
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+    float: left;
+  }
+
+  .col-4 {
+    width: 8.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+    float: left;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
+  .footer-mobile {
+    display: none;
+  }
+
+  .footer-tablet {
+    display: none;
+  }
+
+  .footer-desktop {
+    /*fica visivel*/
+    display: block;
+  }
+
+  .col-3:first-child {
+    float: left;
+    width: 25%;
+  }
+
+  .header {
+    height: 250px;
+  }
+}

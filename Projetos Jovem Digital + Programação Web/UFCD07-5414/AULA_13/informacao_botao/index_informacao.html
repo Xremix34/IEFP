@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informação com botões</title>
+  <style>
+    body {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    button {
+      width: 150px;
+      height: 40px;
+      background-color: darkblue;
+      color: white;
+      border: none;
+    }
+
+    button:hover {
+      transition: all 0.5s;
+      background-color: rgb(71, 100, 145);
+    }
+
+    h3 {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Clique nos botões para obter informações sobre o produto.</h1>
+  <img src="./imagem/rato.png" alt="rato Óptico" style="width: 200px;"><br />
+  <button onclick="designacao()">Designação</button>
+  <button onclick="preco()">Preço</button>
+  <button onclick="velocidade()">Velocidade</button>
+  <section id="produto">
+    <p>Aqui surgem as informações do produto.</p>
+  </section>
+  <script src="./js/script_informacao.js"></script>
+</body>
+
+</html>

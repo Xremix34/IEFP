@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Window Prompt</title>
+</head>
+
+<body>
+  <h1>Trabalhar com dados</h1>
+  <button onclick="valor()">Digite o seu nome</button>
+  <script>
+    function valor() {
+      let nome = window.prompt("Qual é o seu nome?");
+      window.alert(`Olá, ${nome}! Seja muito bem vindo!`);
+    }
+  </script>
+</body>
+
+</html>

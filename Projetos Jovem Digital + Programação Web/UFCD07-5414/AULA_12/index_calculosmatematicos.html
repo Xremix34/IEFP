@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cálculos Matemáticos em Javascript</title>
+</head>
+
+<body>
+  <h1>Cálculos Matemáticos em Javascript</h1>
+  <button onclick="resultado()">Clique para calcular</button>
+  <section id="matematica">
+    <p>Aqui vai aparecer os resultados dos cálculos.</p>
+  </section>
+
+  <script>
+    function resultado() {
+      let num = Number(window.prompt('Digite um número:'));
+      let resultado = document.querySelector('section#matematica');
+      resultado.innerHTML = `<p>O valor digitado é ${num}.</p>`;
+      resultado.innerHTML += `<p>O seu valor absoluto é ${Math.abs(num)}</p>`; //retorna o valor absoluto
+      resultado.innerHTML += `<p>A sua parte inteira é ${Math.trunc(num)}</p>`; //retorna a parte do valor inteiro
+      resultado.innerHTML += `<p>O valor inteiro mais próximo é ${Math.round(num)}</p>`; //retorna o valor inteiro mais próximo
+      resultado.innerHTML += `<p>A raiz quadrada é ${Math.sqrt(num)}</p>`; //retorna a raiz quadrada de um número
+      resultado.innerHTML += `<p>A raiz cúbica é ${Math.cbrt(num)}</p>`; //retorna a raiz cúbica de um número 
+      resultado.innerHTML += `<p>O valor de ${num}<sup>2</sup> ${Math.pow(num, 2)}</p>`; //retorna a potência de um número
+
+    }
+  </script>
+</body>
+
+</html>

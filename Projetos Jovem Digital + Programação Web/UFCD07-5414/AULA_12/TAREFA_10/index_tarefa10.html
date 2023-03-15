@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dados do Cliente</title>
+
+</head>
+
+<body>
+  <h1>Dados do Cliente</h1>
+  <button onclick="abrirJanela()">Abrir janela</button>
+
+  <script>
+    function abrirJanela() {
+      let nome = window.prompt("Insira o nome do cliente:");
+      let idade = window.prompt("Insira a idade do cliente:");
+      let anoNascimento = window.prompt("Insira o ano de nascimento do cliente:");
+
+      window.alert(`Seja bem-vindo ${nome}! Voçê tem ${idade} anos e nasceu em ${anoNascimento}. \n\n                      Bom trabalho!`);
+    }
+  </script>
+</body>
+
+</html>

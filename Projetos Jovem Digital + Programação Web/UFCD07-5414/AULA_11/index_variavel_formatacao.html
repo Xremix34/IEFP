@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variável com Formatação em JS</title>
+  <script type="text/javascript">
+    var nome = window.prompt("Insira o seu primeiro nome.");
+    var idade = window.prompt("Insira a sua idade.");
+  </script>
+  <style>
+    span {
+      color: red;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    document.writeln(`O meu nome é <strong>${nome.toLocaleUpperCase()}</strong> e tenho <span>${idade} anos</span>.`);
+  </script>
+</body>
+
+</html>

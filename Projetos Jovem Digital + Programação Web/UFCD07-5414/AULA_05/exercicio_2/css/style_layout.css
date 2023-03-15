@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: aqua;
+}
+
+/*Em é o tamanho em relação ao browser ou seja é o valor proporcional ao website ele multiplica o tamanho que for dado ex 12*12*/
+#tudo, #topo, #menu, #conteudo, #rodape {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
+
+#tudo {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#topo {
+  width: 900px;
+  height: 200px;
+  background-color: #362f2d;
+}
+
+#menu {
+  width: 300px;
+  height: 500px;
+  background-color: #94b73e;
+  float: left;
+}
+
+.menu {
+  padding: 10px;
+}
+
+div.menu a {
+  text-decoration: none;
+}
+
+div.menu:hover div {
+  background-color: red;
+}
+
+#conteudo {
+  width: 600px;
+  height: 500px;
+  background-color: #b5c0af;
+  float: right;
+}
+
+#rodape {
+  width: 900px;
+  height: 100px;
+  background-color: #4c4c4c;
+  /*limpa os floats ou seja a pagina deixa de ser flutuante*/
+  clear: both;
+}
