@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+
+<body onload="iniciodapagina()">
+  <p>Texto de parágrafo</p>
+
+  <a href="#">Links</a>
+
+  <!-- Comentários HTML são elaborados de forma diferente de javasscript -->
+  <!-- Eventos -->
+  <form method="get" onsubmit="funcao()"> <!-- É utilizado por defeito nos formulários -->
+
+    <p>
+      <label>Campo de input 1</label>
+      <input type="text" name="variavel01" id="variavel01"> <!-- Os ids devem ter sempre o mesmo nome do name-->
+    </p>
+
+    <p>
+      <label>Campo de input 2</label>
+      <input type="text" name="variavel02" id="variavel02" onkeypress="teclapressionada(event)">
+    </p>
+    <input type="submit" value="Enviar">
+
+  </form>
+
+  <p id="frase"></p>
+  <script type="text/javascript">
+
+    function iniciodapagina() {
+
+      console.log("A página foi iniciada.");
+
+    }
+
+    // Obtém a tecla pressionada na tag input2
+    function teclapressionada(e) {
+
+      var tecla;
+
+      if (window.event) { // Está associado ao IE (Internet Explorer)
+
+        tecla = e.keyCode; // Obter o código da tecla pressionada
+
+      } else if (e.which) { // Restantes browsers
+
+        tecla = e.which; // Obter o código da tecla pressionada
+
+      }
+
+      // Retorna o caracter associado ao código da tecla pressionada
+      // console.log("A tecla pressionada foi:" + String.fromCharCode(tecla));
+      document.getElementById('frase').innerHTML = `Foi pressionada a tecla: ${String.fromCharCode(tecla)}`;
+
+    }
+
+
+    function funcao() {
+
+      var x = document.getElementById('variavel01').value;
+      console.log(x);
+
+      alert("Forçar a paragem do código sem fazer refresh à página.");
+    }
+
+    // Comentários
+
+    // alert("Mensagem"); // Direciona para saída de informação para o programador ou utilizador
+
+    // document.write('id') = "Mensagem"; // Direciona para saída de informação para o utilizador
+
+    //  console.log("Mensagem de saída para a consola"); // Direciona para saída de informação para o programador
+
+    // FORÇAR a LIMPEZA DA CACHE E RECARREGAR A PAGINA COM AS ALTERAÇÕES EFETUADAS
+    // CTRL + F5
+  </script>
+</body>
+
+</html>

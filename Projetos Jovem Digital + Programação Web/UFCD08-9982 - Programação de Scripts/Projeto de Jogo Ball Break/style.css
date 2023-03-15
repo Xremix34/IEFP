@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+canvas, div, button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  background-color: aliceblue;
+}
+
+.textoLogo p {
+  color: #3CB6A8;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  font-size: 4.5em;
+}
+
+div .reiniciarHiscore {
+  width: 200px;
+  margin: 20px;
+  color: #3CB6A8;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  font-size: 1.5em;
+}
+
+div .reiniciarHiscore:hover {
+  background-color: aquamarine;
+
+}
