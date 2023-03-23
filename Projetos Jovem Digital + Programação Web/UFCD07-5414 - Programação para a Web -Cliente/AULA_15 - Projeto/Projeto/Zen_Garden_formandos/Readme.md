@@ -32,8 +32,8 @@
 - <p>Copiar a pasta para o diretório desejado no computador.</p>
 ```git clone https://github.com/Xremix34/IEFP.git```
 - <p>Entrar no diretório <strong>Projetos Jovem Digital + Programação Web/UFCD07-5414 - Programação para a Web -Cliente/AULA_15 - Projeto/Projeto/Zen_Garden_formandos/
-/</strong></p>
-- <p>Abrir index.html</p>
+</strong></p>
+- <p>Abrir o index.html</p>
 ---
 
 ## Autores
