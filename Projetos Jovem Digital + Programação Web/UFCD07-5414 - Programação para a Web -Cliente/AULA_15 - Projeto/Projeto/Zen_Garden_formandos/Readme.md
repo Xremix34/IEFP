@@ -30,12 +30,10 @@
 
 #### Instalação
 - <p>Copiar a pasta para o diretório desejado no computador.</p>
-```git clone https://github.com/Xremix34/PHP-e-MYSQL--Projeto-Web-Crawler.git```
-- <p>Copiar pasta do projeto para o directorio C:\xampp\htdocs</p>
-- <p>Iniciar o Xampp</p>
-- <p>Criar a base de dados novacrawler em MyPHPAdmin http://localhost/phpmyadmin/</p>
-- <p>Importar as tabelas da pasta db para a base de dados criada</p> 
-- <p>Abrir no browser o endereço http://localhost/Crawler/pagina_inical.php ou http://127.0.0.1: numero da porta (ex:3000)</p>
+```git clone https://github.com/Xremix34/IEFP.git```
+- <p>Entrar no diretório <strong>Projetos Jovem Digital + Programação Web/UFCD07-5414 - Programação para a Web -Cliente/AULA_15 - Projeto/Projeto/Zen_Garden_formandos/
+/</strong></p>
+- <p>Abrir index.html</p>
 ---
 
 ## Autores
