@@ -7,7 +7,6 @@
 ### Tabela de conteúdos
 
 - [Descrição](#descrição)
-- [Requisitos](#requisitos)
 - [Como utilizar](#Como-utilizar)
 - [Autor](#autor)
 
@@ -15,21 +14,16 @@
 
 ## Descrição
 
-> Projeto desenvolvido por mais um integrante de grupo feito em PHP e MySql, que permite fazer a captura de informações de um determinada site http guardando numa base de dados MySql todo o seu texto relevante e imagens e seus endereços. 
+> Adaptação de um template em HTML CSS3 e JAVASCRIPT para uma página web ficticia de uma empresa. 
  
 #### Tecnologias e Ferramentas
 
-- ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 [Voltar ao Início](#zen garden)
 
----
-
-## Requisitos
-- XAMPP(https://www.apachefriends.org/) 
 ---
 
 ## Como utilizar
