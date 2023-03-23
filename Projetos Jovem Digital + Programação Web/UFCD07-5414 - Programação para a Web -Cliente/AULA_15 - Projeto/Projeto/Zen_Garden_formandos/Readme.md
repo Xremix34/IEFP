@@ -1,4 +1,4 @@
-# <p align="center">Web Crawler</p>
+# <p align="center">Zen Garden</p>
 
 ![crawlert_1](https://user-images.githubusercontent.com/92939227/224534519-a33732df-6738-40cd-8f93-6e39a559593f.png)
 
