@@ -1,6 +1,6 @@
 # <p align="center">Zen Garden</p>
 
-![crawlert_1](https://user-images.githubusercontent.com/92939227/224534519-a33732df-6738-40cd-8f93-6e39a559593f.png)
+![zen garden](https://user-images.githubusercontent.com/92939227/227223679-83486396-8fa2-4168-80b9-2f1da7c91043.png)
 
 ---
 
@@ -24,7 +24,7 @@
 - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-[Voltar ao Início](#crawler)
+[Voltar ao Início](#zen garden)
 
 ---
 
@@ -49,4 +49,4 @@
 [<img src="https://avatars.githubusercontent.com/u/92939227?s=96&v=4" width=115> <br> <sub> Elio Borges </sub>](https://github.com/Xremix34)|
 | :---: |
 
-[Voltar ao Início](#crawler)
+[Voltar ao Início](#zen garden)
